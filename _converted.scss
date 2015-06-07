@@ -1,0 +1,74 @@
+
+// Converted Variables
+
+
+// Custom Media Query Variables
+
+
+
+.Demo {
+  counter-reset: dev-index;
+}
+
+
+.Demo-title,
+.Demo-index,
+.Demo-comment,
+.Demo-name {
+  font-family: "Avenir Next" sans-serif;
+  padding: .5em 1rem;
+  color: #666;
+}
+
+
+.Demo-title {
+  font-size: 2.25em;
+  margin-top: 1em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Demo-name {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+
+.Demo-index:before,
+.Demo-comment:before {
+  display: inline-block;
+  min-width: 1.5rem;
+  margin-right: 1em;
+  text-transform: uppercase;
+}
+
+.Demo-index:before {
+  content: counter(dev-index);
+  counter-increment: dev-index;
+}
+.Demo-index {
+  counter-reset: dev-comment;
+  font-size: 1.5em;
+  margin: 2.25em 0 1em;
+}
+
+
+.Demo-comment:before {
+  content: counter(dev-index) '.' counter(dev-comment);
+  counter-increment: dev-comment;
+}
+.Demo-comment {
+  font-weight: normal;
+  margin: 1.25em 0;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.Demo-fixture {
+  border: 1px solid rgb(0,153,255);
+  background: rgba(0,153,255, .2);
+}
+
+.Demo-fixture--height4x {
+  min-height:4rem !important;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "sircus-components-demo",
+  "description": "Use to demo for Sircus modules.",
+  "version": "0.0.1",
+  "homepage": "http://sircus.github.io",
+  "author": {
+    "name": "Yasuyuki Enomoto",
+    "url": "http://blivesta.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sircus/components-demo.git"
+  },
+  "scripts": {
+    "demo": "cssnext --no-color-rgba --no-rem ./demo/index.css ./demo/demo.css ",
+    "css2scss": "sircus-process-css2scss ./lib/components-demo.css ./_converted.scss",
+    "watch": "watch 'npm run demo' ./lib",
+    "build": "npm run demo && npm run css2scss",
+    "start": "npm install && npm run build && npm run watch",
+    "deploy": "git subtree push --prefix demo origin gh-pages"
+  },
+  "devDependencies": {
+    "cssnext":"^1.6.0",
+    "sircus-process-css2scss": "^0.1.0",
+    "watch": "^0.16.0"
+  }
+}
