@@ -7,7 +7,7 @@
 
 
 .Demo {
-  counter-reset: dev-index;
+  counter-reset: demo-index;
 }
 
 
@@ -43,19 +43,19 @@
 }
 
 .Demo-index:before {
-  content: counter(dev-index);
-  counter-increment: dev-index;
+  content: counter(demo-index);
+  counter-increment: demo-index;
 }
 .Demo-index {
-  counter-reset: dev-comment;
+  counter-reset: demo-comment;
   font-size: 1.5em;
   margin: 2.25em 0 1em;
 }
 
 
 .Demo-comment:before {
-  content: counter(dev-index) '.' counter(dev-comment);
-  counter-increment: dev-comment;
+  content: counter(demo-index) '.' counter(demo-comment);
+  counter-increment: demo-comment;
 }
 .Demo-comment {
   font-weight: normal;
