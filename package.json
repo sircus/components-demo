@@ -14,7 +14,7 @@
   },
   "scripts": {
     "demo": "cssnext --no-color-rgba --no-rem ./demo/index.css ./demo/demo.css ",
-    "css2scss": "sircus-process-css2scss ./lib/components-demo.css ./_converted.scss",
+    "css2scss": "css2scss ./lib/components-demo.css ./_converted.scss",
     "watch": "watch 'npm run demo' ./lib",
     "build": "npm run demo && npm run css2scss",
     "start": "npm install && npm run build && npm run watch",
@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "cssnext":"^1.6.0",
-    "sircus-process-css2scss": "^0.1.0",
+    "sircus-process-css2scss": "^0.2.0",
     "watch": "^0.16.0"
   }
 }
