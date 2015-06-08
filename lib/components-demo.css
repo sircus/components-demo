@@ -51,6 +51,7 @@
   counter-increment: demo-comment;
 }
 .Demo-comment {
+  font-size: 1.17em;
   font-weight: normal;
   margin: 1.25em 0;
   border-bottom: 1px solid #ddd;
