@@ -1,8 +1,10 @@
+/*
+ * sircus-components-demo
+ ================================================== */
 
 .Demo {
   counter-reset: demo-index;
 }
-
 
 .Demo-title,
 .Demo-index,
