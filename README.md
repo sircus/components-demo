@@ -3,8 +3,6 @@
 [![npm version](https://img.shields.io/npm/v/sircus-components-demo.svg?style=flat)](https://www.npmjs.com/package/sircus-components-demo)
 [![Build Status](https://img.shields.io/travis/sircus/components-demo/master.svg?style=flat)](https://travis-ci.org/sircus/components-demo)
 
-> Use to demo for Sircus modules.
-
 http://sircus.github.io/components-demo
 
 
@@ -62,18 +60,9 @@ input.scss
 
 We Need Your Help!
 
-```bash
-$ git clone https://github.com/sircus/conmponents-demo.git
-$ cd conmponents-demo
-$ git checkout -b patch-1
-$ npm run start
-```
+---
 
-## Acknowledgements
-
-Inspiration and code was taken from many sources, including:  
-
-* [suitcss](https://github.com/suitcss)@[suitcss-components-test](https://github.com/suitcss/components-test)
+Inspired by [suitcss](https://github.com/suitcss)@[suitcss-components-test](https://github.com/suitcss/components-test)
 
 
 ## License
